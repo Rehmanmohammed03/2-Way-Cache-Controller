@@ -1,0 +1,33 @@
+# Compiled Object files
+*.o
+*.out
+*.exe
+# Simulation output
+cache_sim
+*.vcd
+# FPGA Synthesis Artifacts (F4PGA/Vivado)
+build/
+.Xil/
+*.cache/
+*.runs/
+*.sim/
+*.hw/
+*.gen/
+*.ip_user_files/
+*.jou
+*.xpr
+*.bit
+*.route
+*.place
+*.net
+*.fasm
+*.eblif
+*.json
+*.ilang
+*.rpt
+*.log
+*.post_routing
+# Editor & Backup
+*.bak
+*.swp
+.vscode/
