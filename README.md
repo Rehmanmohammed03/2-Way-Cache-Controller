@@ -2,8 +2,6 @@
 
 A small 2-way set associative cache written in Verilog. Each way is its own single-port SRAM, and a controller checks both ways in parallel to decide whether a lookup hits or misses. There is a testbench for simulation and a top-level wrapper for the Digilent Arty A7 board.
 
-It's deliberately tiny (2 sets, 2 ways) so you can follow every signal in a waveform or step it by hand on the board.
-
 ## Parameters
 
 | | |
